@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+}
+
+.headingcreate{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    display: flex;
+    padding-left: 20%;
+
+}
+.itemshead{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+form{
+    display: grid;
+    
+}

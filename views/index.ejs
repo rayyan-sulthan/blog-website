@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+<h1 class="itemshead">list of availabe posts by users</h1>
+<%if(locals.formdata && formdata.length > 0){ %>
+    <% formdata.forEach(item => { %>
+        <hr>
+        <div>
+            <h3 class="item"><%= item.title %></h3>
+            <p class="item"><%= item.content %></p>
+        </div>
+        <hr>
+
+<% })}else{ %>
+    <div><p>create new post in create section</p></div>
+<%}%>
+
+<%- include("partials/footer.ejs") %>
